@@ -18,7 +18,7 @@ print()
 
 
 def half_paper(t: float, d: float) -> int:
-    """Calculate how many times need to half sheet with thick t to achive total thick in d"""
+    """Calculate how many times need to half sheet with thick t to achieve total thick in d"""
     return int(math.ceil(math.log2(d / t)))
 
 
