@@ -7,6 +7,7 @@ print()
 
 
 def d6_top_edge(a: int, b: int) -> int:
+    """Calculate number on top edge of d6 dice, from 2 number on sides."""
     return 3 * (a**3 * b - a * b**3) % 7
 
 
@@ -17,6 +18,7 @@ print()
 
 
 def half_paper(t: float, d: float) -> int:
+    """Calculate how many times need to half sheet with thick t to achive total thick in d"""
     return int(math.ceil(math.log2(d / t)))
 
 
